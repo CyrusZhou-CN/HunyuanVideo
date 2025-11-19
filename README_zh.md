@@ -263,9 +263,9 @@ conda activate HunyuanVideo
 
 # 3. Install PyTorch and other dependencies using conda
 # For CUDA 11.8
-conda install pytorch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 pytorch-cuda=11.8 -c pytorch -c nvidia
+conda install pytorch==2.6.0 torchvision==0.19.0 torchaudio==2.4.0 pytorch-cuda=11.8 -c pytorch -c nvidia
 # For CUDA 12.4
-conda install pytorch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 pytorch-cuda=12.4 -c pytorch -c nvidia
+conda install pytorch==2.6.0 torchvision==0.19.0 torchaudio==2.4.0 pytorch-cuda=12.4 -c pytorch -c nvidia
 
 # 4. Install pip dependencies
 python -m pip install -r requirements.txt
@@ -274,7 +274,7 @@ python -m pip install -r requirements.txt
 python -m pip install ninja
 python -m pip install git+https://github.com/Dao-AILab/flash-attention.git@v2.6.3
 
-# 6. Install xDiT for parallel inference (It is recommended to use torch 2.4.0 and flash-attn 2.6.3)
+# 6. Install xDiT for parallel inference (It is recommended to use torch 2.6.0 and flash-attn 2.6.3)
 python -m pip install xfuser==0.4.0
 ```
 
@@ -288,7 +288,7 @@ export LD_LIBRARY_PATH=/opt/conda/lib/python3.8/site-packages/nvidia/cublas/lib/
 #选项2：强制显式使用 CUDA11.8 编译的 Pytorch 版本以及其他所有软件包
 pip uninstall -r requirements.txt  # 确保卸载所有依赖包
 pip uninstall -y xfuser
-pip install torch==2.4.0 --index-url https://download.pytorch.org/whl/cu118
+pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cu118
 pip install -r requirements.txt
 pip install ninja
 pip install git+https://github.com/Dao-AILab/flash-attention.git@v2.6.3
