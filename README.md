@@ -41,6 +41,7 @@ This repo contains PyTorch model definitions, pre-trained weights and inference/
 
 ## 🔥🔥🔥 News!!
 
+* Nov 21, 2025: 🎉 We release the [HunyuanVideo-1.5](https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5), a highly efficient and powerful new foundation model.
 * May 28, 2025: 💃 We release the [HunyuanVideo-Avatar](https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar), an audio-driven human animation model  based on HunyuanVideo.
 * May 09, 2025: 🙆 We release the [HunyuanCustom](https://github.com/Tencent-Hunyuan/HunyuanCustom), a multimodal-driven architecture for customized video generation based on HunyuanVideo.
 * Mar 06, 2025: 🌅 We release the [HunyuanVideo-I2V](https://github.com/Tencent-Hunyuan/HunyuanVideo-I2V), an image-to-video model based on HunyuanVideo.
