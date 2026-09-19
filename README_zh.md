@@ -86,6 +86,7 @@
 - FramePack (将输入帧上下文打包到下一帧预测模型中用于视频生成): [FramePack](https://github.com/lllyasviel/FramePack) by [Lvmin Zhang](https://github.com/lllyasviel)
 - Jenga (加速采样): [Jenga](https://github.com/dvlab-research/Jenga) by [DV Lab](https://github.com/dvlab-research)
 - DCM (用于高效高质量视频生成的双专家一致性模型): [DCM](https://github.com/Vchitect/DCM) by [Vchitect](https://github.com/Vchitect/DCM)
+- NaviCache (基于离线免校准的缓存加速采样): [NaviCache](https://github.com/HelloZicky/NaviCache) by [Zhejiang University](https://arxiv.org/abs/2606.26795)
 
 
 
